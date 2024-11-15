@@ -5,7 +5,7 @@ import { THEME_CLASSES } from "./constants/themes";
 import Table from "./components/Table";
 import Header from "./components/Header";
 import Background from "./components/Background";
-import Footer from "./components/Footer";
+import ThemeBar from "./components/ThemeBar";
 
 import "handsontable/styles/handsontable.css";
 import "./styles/themes/ht-theme-main.css";
@@ -41,8 +41,9 @@ function App() {
     <div className="container">
       <Background />
       <Header />
+      <ThemeBar theme={theme} setTheme={setTheme} />
       <Table key={theme} themeName={theme} />
-      <Footer theme={theme} setTheme={setTheme} />
+      <iframe className="demo-iframe" src="https://stackblitz.com/github/handsontable/handsontable-examples/tree/master/us-summit-demo?view=editor"/>
     </div>
   );
 }

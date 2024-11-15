@@ -1,33 +1,3 @@
-/*!
- * Copyright (c) HANDSONCODE sp. z o. o.
- *
- * HANDSONTABLE is a software distributed by HANDSONCODE sp. z o. o., a Polish corporation based in
- * Gdynia, Poland, at Aleja Zwyciestwa 96-98, registered by the District Court in Gdansk under number
- * 538651, EU tax ID number: PL5862294002, share capital: PLN 62,800.00.
- *
- * This software is protected by applicable copyright laws, including international treaties, and dual-
- * licensed - depending on whether your use for commercial purposes, meaning intended for or
- * resulting in commercial advantage or monetary compensation, or not.
- *
- * If your use is strictly personal or solely for evaluation purposes, meaning for the purposes of testing
- * the suitability, performance, and usefulness of this software outside the production environment,
- * you agree to be bound by the terms included in the "handsontable-non-commercial-license.pdf" file.
- *
- * Your use of this software for commercial purposes is subject to the terms included in an applicable
- * license agreement.
- *
- * In any case, you must not make any such use of this software as to develop software which may be
- * considered competitive with this software.
- *
- * UNLESS EXPRESSLY AGREED OTHERWISE, HANDSONCODE PROVIDES THIS SOFTWARE ON AN "AS IS"
- * BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, AND IN NO EVENT AND UNDER NO
- * LEGAL THEORY, SHALL HANDSONCODE BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY DIRECT,
- * INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER ARISING FROM
- * USE OR INABILITY TO USE THIS SOFTWARE.
- *
- * Version: 14.6.1
- * Release date: 17/10/2024 (built at 15/11/2024 11:32:32)
- */
 .ht-theme-nostalgia,
 .ht-theme-nostalgia-dark,
 .ht-theme-nostalgia-dark-auto {
@@ -41,9 +11,9 @@
   --ht-accent-color: #2429b9;
   --ht-foreground-color: #2429b9;
   --ht-background-color: #eeeef0;
-  --ht-placeholder-color: #131662;
+  --ht-placeholder-color: #9d9fda;
   --ht-read-only-color: #2429b9;
-  --ht-disabled-color: #131662;
+  --ht-disabled-color: #9d9fda;
   --ht-cell-horizontal-border-color: #2429b9;
   --ht-cell-vertical-border-color: #2429b9;
   --ht-wrapper-border-width: 1px;
@@ -68,8 +38,9 @@
   --ht-cell-autofill-size: 6px;
   --ht-cell-autofill-border-width: 1px;
   --ht-cell-autofill-border-radius: 4px;
-  --ht-cell-autofill-border-color: #131662;
+  --ht-cell-autofill-border-color: #eeeef0;
   --ht-cell-autofill-background-color: #2429b9;
+  --ht-cell-autofill-fill-border-color: #000000;
   --ht-resize-indicator-color: #2429b9;
   --ht-move-backlight-color: rgba(36, 41, 185, 0.12);
   --ht-move-indicator-color: #2429b9;
@@ -86,18 +57,19 @@
   --ht-checkbox-focus-background-color: #eeeef0;
   --ht-checkbox-focus-icon-color: #2429b9;
   --ht-checkbox-focus-ring-color: #2429b9;
-  --ht-checkbox-disabled-border-color: #131662;
-  --ht-checkbox-disabled-background-color: #131662;
+  --ht-checkbox-disabled-border-color: #9d9fda;
+  --ht-checkbox-disabled-background-color: #9d9fda;
   --ht-checkbox-disabled-icon-color: #eeeef0;
   --ht-checkbox-checked-border-color: #2429b9;
   --ht-checkbox-checked-background-color: #2429b9;
   --ht-checkbox-checked-icon-color: #eeeef0;
   --ht-checkbox-checked-focus-background-color: #2429b9;
-  --ht-checkbox-checked-disabled-border-color: #131662;
+  --ht-checkbox-checked-disabled-border-color: #9d9fda;
   --ht-checkbox-checked-disabled-background-color: #eeeef0;
-  --ht-checkbox-checked-disabled-icon-color: #131662;
+  --ht-checkbox-checked-disabled-icon-color: #9d9fda;
   --ht-header-font-weight: 400;
   --ht-header-foreground-color: #2429b9;
+  --ht-header-row-foreground-color: #2429b9;
   --ht-header-background-color: #eeeef0;
   --ht-header-active-border-color: #2429b9;
   --ht-header-active-foreground-color: #eeeef0;
@@ -144,7 +116,7 @@
   --ht-primary-button-foreground-color: #eeeef0;
   --ht-primary-button-background-color: #2429b9;
   --ht-primary-button-disabled-border-color: #eeeef0;
-  --ht-primary-button-disabled-foreground-color: #131662;
+  --ht-primary-button-disabled-foreground-color: #9d9fda;
   --ht-primary-button-disabled-background-color: #eeeef0;
   --ht-primary-button-hover-border-color: #2429b9;
   --ht-primary-button-hover-foreground-color: #eeeef0;
@@ -155,7 +127,7 @@
   --ht-secondary-button-foreground-color: #2429b9;
   --ht-secondary-button-background-color: #eeeef0;
   --ht-secondary-button-disabled-border-color: #eeeef0;
-  --ht-secondary-button-disabled-foreground-color: #131662;
+  --ht-secondary-button-disabled-foreground-color: #9d9fda;
   --ht-secondary-button-disabled-background-color: #eeeef0;
   --ht-secondary-button-hover-border-color: #eeeef0;
   --ht-secondary-button-hover-foreground-color: #2429b9;
@@ -213,9 +185,9 @@
   --ht-accent-color: #cccbff;
   --ht-foreground-color: #cccbff;
   --ht-background-color: #130f20;
-  --ht-placeholder-color: #6966ff;
+  --ht-placeholder-color: #706d8f;
   --ht-read-only-color: #cccbff;
-  --ht-disabled-color: #6966ff;
+  --ht-disabled-color: #706d8f;
   --ht-cell-horizontal-border-color: #cccbff;
   --ht-cell-vertical-border-color: #cccbff;
   --ht-wrapper-border-color: #cccbff;
@@ -229,10 +201,11 @@
   --ht-cell-editor-shadow-color: #cccbff;
   --ht-cell-success-background-color: rgba(129, 128, 210, 0.30);
   --ht-cell-error-background-color: rgba(251, 98, 75, 0.30);
-  --ht-cell-selection-border-color: #8180d2;
-  --ht-cell-selection-background-color: #8180d2;
-  --ht-cell-autofill-border-color: #6966ff;
+  --ht-cell-selection-border-color: #cccbff;
+  --ht-cell-selection-background-color: #cccbff;
+  --ht-cell-autofill-border-color: #130f20;
   --ht-cell-autofill-background-color: #cccbff;
+  --ht-cell-autofill-fill-border-color: #ffffff;
   --ht-resize-indicator-color: #cccbff;
   --ht-move-backlight-color: rgba(129, 128, 210, 0.12);
   --ht-move-indicator-color: #cccbff;
@@ -246,17 +219,18 @@
   --ht-checkbox-focus-background-color: #130f20;
   --ht-checkbox-focus-icon-color: #cccbff;
   --ht-checkbox-focus-ring-color: #cccbff;
-  --ht-checkbox-disabled-border-color: #6966ff;
-  --ht-checkbox-disabled-background-color: #6966ff;
+  --ht-checkbox-disabled-border-color: #706d8f;
+  --ht-checkbox-disabled-background-color: #706d8f;
   --ht-checkbox-disabled-icon-color: #130f20;
   --ht-checkbox-checked-border-color: #cccbff;
   --ht-checkbox-checked-background-color: #cccbff;
   --ht-checkbox-checked-icon-color: #130f20;
   --ht-checkbox-checked-focus-background-color: #cccbff;
-  --ht-checkbox-checked-disabled-border-color: #6966ff;
+  --ht-checkbox-checked-disabled-border-color: #706d8f;
   --ht-checkbox-checked-disabled-background-color: #130f20;
-  --ht-checkbox-checked-disabled-icon-color: #6966ff;
+  --ht-checkbox-checked-disabled-icon-color: #706d8f;
   --ht-header-foreground-color: #cccbff;
+  --ht-header-row-foreground-color: #cccbff;
   --ht-header-background-color: #130f20;
   --ht-header-active-border-color: #476af7;
   --ht-header-active-foreground-color: #130f20;
@@ -297,7 +271,7 @@
   --ht-primary-button-foreground-color: #130f20;
   --ht-primary-button-background-color: #cccbff;
   --ht-primary-button-disabled-border-color: #130f20;
-  --ht-primary-button-disabled-foreground-color: #6966ff;
+  --ht-primary-button-disabled-foreground-color: #706d8f;
   --ht-primary-button-disabled-background-color: #130f20;
   --ht-primary-button-hover-border-color: #cccbff;
   --ht-primary-button-hover-foreground-color: #130f20;
@@ -308,7 +282,7 @@
   --ht-secondary-button-foreground-color: #cccbff;
   --ht-secondary-button-background-color: #130f20;
   --ht-secondary-button-disabled-border-color: #130f20;
-  --ht-secondary-button-disabled-foreground-color: #6966ff;
+  --ht-secondary-button-disabled-foreground-color: #706d8f;
   --ht-secondary-button-disabled-background-color: #130f20;
   --ht-secondary-button-hover-border-color: #130f20;
   --ht-secondary-button-hover-foreground-color: #cccbff;
@@ -346,9 +320,9 @@
     --ht-accent-color: #cccbff;
     --ht-foreground-color: #cccbff;
     --ht-background-color: #130f20;
-    --ht-placeholder-color: #6966ff;
+    --ht-placeholder-color: #706d8f;
     --ht-read-only-color: #cccbff;
-    --ht-disabled-color: #6966ff;
+    --ht-disabled-color: #706d8f;
     --ht-cell-horizontal-border-color: #cccbff;
     --ht-cell-vertical-border-color: #cccbff;
     --ht-wrapper-border-color: #cccbff;
@@ -362,10 +336,11 @@
     --ht-cell-editor-shadow-color: #cccbff;
     --ht-cell-success-background-color: rgba(129, 128, 210, 0.30);
     --ht-cell-error-background-color: rgba(251, 98, 75, 0.30);
-    --ht-cell-selection-border-color: #8180d2;
-    --ht-cell-selection-background-color: #8180d2;
-    --ht-cell-autofill-border-color: #6966ff;
+    --ht-cell-selection-border-color: #cccbff;
+    --ht-cell-selection-background-color: #cccbff;
+    --ht-cell-autofill-border-color: #130f20;
     --ht-cell-autofill-background-color: #cccbff;
+    --ht-cell-autofill-fill-border-color: #ffffff;
     --ht-resize-indicator-color: #cccbff;
     --ht-move-backlight-color: rgba(129, 128, 210, 0.12);
     --ht-move-indicator-color: #cccbff;
@@ -379,17 +354,18 @@
     --ht-checkbox-focus-background-color: #130f20;
     --ht-checkbox-focus-icon-color: #cccbff;
     --ht-checkbox-focus-ring-color: #cccbff;
-    --ht-checkbox-disabled-border-color: #6966ff;
-    --ht-checkbox-disabled-background-color: #6966ff;
+    --ht-checkbox-disabled-border-color: #706d8f;
+    --ht-checkbox-disabled-background-color: #706d8f;
     --ht-checkbox-disabled-icon-color: #130f20;
     --ht-checkbox-checked-border-color: #cccbff;
     --ht-checkbox-checked-background-color: #cccbff;
     --ht-checkbox-checked-icon-color: #130f20;
     --ht-checkbox-checked-focus-background-color: #cccbff;
-    --ht-checkbox-checked-disabled-border-color: #6966ff;
+    --ht-checkbox-checked-disabled-border-color: #706d8f;
     --ht-checkbox-checked-disabled-background-color: #130f20;
-    --ht-checkbox-checked-disabled-icon-color: #6966ff;
+    --ht-checkbox-checked-disabled-icon-color: #706d8f;
     --ht-header-foreground-color: #cccbff;
+    --ht-header-row-foreground-color: #cccbff;
     --ht-header-background-color: #130f20;
     --ht-header-active-border-color: #476af7;
     --ht-header-active-foreground-color: #130f20;
@@ -430,7 +406,7 @@
     --ht-primary-button-foreground-color: #130f20;
     --ht-primary-button-background-color: #cccbff;
     --ht-primary-button-disabled-border-color: #130f20;
-    --ht-primary-button-disabled-foreground-color: #6966ff;
+    --ht-primary-button-disabled-foreground-color: #706d8f;
     --ht-primary-button-disabled-background-color: #130f20;
     --ht-primary-button-hover-border-color: #cccbff;
     --ht-primary-button-hover-foreground-color: #130f20;
@@ -441,7 +417,7 @@
     --ht-secondary-button-foreground-color: #cccbff;
     --ht-secondary-button-background-color: #130f20;
     --ht-secondary-button-disabled-border-color: #130f20;
-    --ht-secondary-button-disabled-foreground-color: #6966ff;
+    --ht-secondary-button-disabled-foreground-color: #706d8f;
     --ht-secondary-button-disabled-background-color: #130f20;
     --ht-secondary-button-hover-border-color: #130f20;
     --ht-secondary-button-hover-foreground-color: #cccbff;

@@ -1,33 +1,3 @@
-/*!
- * Copyright (c) HANDSONCODE sp. z o. o.
- *
- * HANDSONTABLE is a software distributed by HANDSONCODE sp. z o. o., a Polish corporation based in
- * Gdynia, Poland, at Aleja Zwyciestwa 96-98, registered by the District Court in Gdansk under number
- * 538651, EU tax ID number: PL5862294002, share capital: PLN 62,800.00.
- *
- * This software is protected by applicable copyright laws, including international treaties, and dual-
- * licensed - depending on whether your use for commercial purposes, meaning intended for or
- * resulting in commercial advantage or monetary compensation, or not.
- *
- * If your use is strictly personal or solely for evaluation purposes, meaning for the purposes of testing
- * the suitability, performance, and usefulness of this software outside the production environment,
- * you agree to be bound by the terms included in the "handsontable-non-commercial-license.pdf" file.
- *
- * Your use of this software for commercial purposes is subject to the terms included in an applicable
- * license agreement.
- *
- * In any case, you must not make any such use of this software as to develop software which may be
- * considered competitive with this software.
- *
- * UNLESS EXPRESSLY AGREED OTHERWISE, HANDSONCODE PROVIDES THIS SOFTWARE ON AN "AS IS"
- * BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, AND IN NO EVENT AND UNDER NO
- * LEGAL THEORY, SHALL HANDSONCODE BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY DIRECT,
- * INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER ARISING FROM
- * USE OR INABILITY TO USE THIS SOFTWARE.
- *
- * Version: 14.6.1
- * Release date: 17/10/2024 (built at 15/11/2024 11:32:32)
- */
 .ht-theme-main,
 .ht-theme-main-dark,
 .ht-theme-main-dark-auto {
@@ -70,6 +40,7 @@
   --ht-cell-autofill-border-radius: 4px;
   --ht-cell-autofill-border-color: #ffffff;
   --ht-cell-autofill-background-color: #1a42e8;
+  --ht-cell-autofill-fill-border-color: #222222;
   --ht-resize-indicator-color: rgba(34, 34, 34, 0.40);
   --ht-move-backlight-color: rgba(34, 34, 34, 0.06);
   --ht-move-indicator-color: #1a42e8;
@@ -100,6 +71,7 @@
   --ht-checkbox-checked-disabled-icon-color: #a3a3a3;
   --ht-header-font-weight: 400;
   --ht-header-foreground-color: #222222;
+  --ht-header-row-foreground-color: #222222;
   --ht-header-background-color: #f7f7f9;
   --ht-header-active-border-color: #2e56fc;
   --ht-header-active-foreground-color: #ffffff;
@@ -241,6 +213,7 @@
   --ht-cell-selection-background-color: #476af7;
   --ht-cell-autofill-border-color: #0f0f10;
   --ht-cell-autofill-background-color: #476af7;
+  --ht-cell-autofill-fill-border-color: #c7c7c7;
   --ht-resize-indicator-color: rgba(255, 255, 255, 0.40);
   --ht-move-backlight-color: rgba(221, 221, 221, 0.12);
   --ht-move-indicator-color: #476af7;
@@ -263,6 +236,7 @@
   --ht-checkbox-checked-disabled-background-color: #36373a;
   --ht-checkbox-checked-disabled-icon-color: #68696c;
   --ht-header-foreground-color: #c7c7c7;
+  --ht-header-row-foreground-color: #c7c7c7;
   --ht-header-background-color: #1e1e1f;
   --ht-header-active-border-color: #4767e5;
   --ht-header-active-foreground-color: #0f0f10;
@@ -375,6 +349,7 @@
     --ht-cell-selection-background-color: #476af7;
     --ht-cell-autofill-border-color: #0f0f10;
     --ht-cell-autofill-background-color: #476af7;
+    --ht-cell-autofill-fill-border-color: #c7c7c7;
     --ht-resize-indicator-color: rgba(255, 255, 255, 0.40);
     --ht-move-backlight-color: rgba(221, 221, 221, 0.12);
     --ht-move-indicator-color: #476af7;
@@ -397,6 +372,7 @@
     --ht-checkbox-checked-disabled-background-color: #36373a;
     --ht-checkbox-checked-disabled-icon-color: #68696c;
     --ht-header-foreground-color: #c7c7c7;
+    --ht-header-row-foreground-color: #c7c7c7;
     --ht-header-background-color: #1e1e1f;
     --ht-header-active-border-color: #4767e5;
     --ht-header-active-foreground-color: #0f0f10;

@@ -49,7 +49,9 @@ const tableConfig = {
   navigableHeaders: true,
   multiColumnSorting: true,
   manualRowMove: true,
-  manualColMove: true,
+  manualColumnMove: true,
+  manualRowResize: true,
+  manualColumnResize: true,
   bindRowsWithHeaders: true,
   formulas: {
     engine: hyperformulaInstance,
