@@ -43,7 +43,7 @@ function App() {
       <Header />
       <ThemeBar theme={theme} setTheme={setTheme} />
       <Table key={theme} themeName={theme} />
-      <iframe className="demo-iframe" src="https://stackblitz.com/github/handsontable/handsontable-examples/tree/master/us-summit-demo?view=editor"/>
+      <iframe className="demo-iframe" src="https://stackblitz.com/github/handsontable/handsontable-examples/tree/master/us-summit-demo?view=edito&file=src%2FApp.tsx"/>
     </div>
   );
 }
