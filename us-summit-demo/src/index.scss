@@ -176,12 +176,12 @@ label {
 
   .table-wrapper {
     display: flex;
-    min-height: calc(100svh - 101px);
-    padding: 0 24px 101px 24px;
+    min-height: calc(100svh - 121px);
+    padding: 20px 24px 101px 24px;
 
     @media (max-width: 767px) {
-      padding: 0 14px 141px 14px;
-      min-height: calc(100svh - 141px);
+      padding: 20px 14px 141px 14px;
+      min-height: calc(100svh - 161px);
     }
 
     .table-container {
@@ -190,12 +190,6 @@ label {
       overflow: auto;
       margin: auto;
     }
-  }
-
-  .demo-iframe {
-    border: none;
-    width: 100%;
-    height: 100svh;
   }
 }
 
