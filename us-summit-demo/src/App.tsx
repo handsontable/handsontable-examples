@@ -12,22 +12,12 @@ import "./styles/themes/ht-theme-main.css";
 import "./styles/themes/ht-theme-horizon.css";
 import "./styles/themes/ht-theme-nostalgia.css";
 import "./styles/themes/ht-theme-tablebase.css";
-// import "handsontable/dist/handsontable.css";
 
 // register Handsontable's modules
 registerAllModules();
 
 function App() {
   const [theme, setTheme] = useState("ht-theme-main");
-
-
-  // TODO remove if not required
-  // useEffect(() => {
-  //   document.documentElement.setAttribute(
-  //     "class",
-  //     theme.includes("dark") ? "dark" : "light"
-  //   );
-  // }, [theme]);
 
   const handleThemeChange = useCallback((padId: string) => {
     const themeClass = THEME_CLASSES[padId as keyof typeof THEME_CLASSES];
