@@ -7,9 +7,6 @@ const Header = () => (
         <Logo />
       </a>
       <div className="btn-wrapper">
-        <a href="#" target="_blank" className="btn">
-          <span className="prefix">Open in</span> bolt.new
-        </a>
         <a href="https://stackblitz.com/github/handsontable/handsontable-examples/tree/master/us-summit-demo" target="_blank" className="btn">
           <svg width="8" height="12" xmlns="http://www.w3.org/2000/svg">
             <path
