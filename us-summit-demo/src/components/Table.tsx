@@ -2,6 +2,7 @@ import { HotTable, HotColumn } from "@handsontable/react-wrapper";
 import { data } from "../constants/data";
 import { PredefinedMenuItemKey } from "handsontable/plugins/contextMenu";
 import { HyperFormula } from "hyperformula";
+import Person from "./renderers/Person";
 
 // Create an external HyperFormula instance
 const hyperformulaInstance = HyperFormula.buildEmpty({
@@ -13,7 +14,7 @@ const tableConfig = {
   nestedHeaders: [
     [
       { label: "Customer", colspan: 6 },
-      { label: "Order", colspan: 3 },
+      { label: "Order", colspan: 4 },
     ],
     [
       "Full name",
@@ -44,6 +45,8 @@ const tableConfig = {
   rowHeaders: true,
   filters: true,
   dropdownMenu: true,
+  autoRowSize: false,
+  autoColumnSize: false,
   autoWrapCol: true,
   autoWrapRow: true,
   navigableHeaders: true,
@@ -72,7 +75,12 @@ const Table = ({ themeName }: Props) => (
           {...tableConfig}
           licenseKey="non-commercial-and-evaluation"
         >
-          <HotColumn data="fullName" headerClassName="htLeft" width={160} />
+          <HotColumn
+            data="person.fullName"
+            headerClassName="htLeft"
+            width={160}
+            renderer={Person}
+          />
           <HotColumn data="jobTitle" headerClassName="htLeft" width={180} />
           <HotColumn data="companyName" headerClassName="htLeft" width={180} />
           <HotColumn data="phone" headerClassName="htLeft" width={180} />

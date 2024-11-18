@@ -193,6 +193,27 @@ label {
   }
 }
 
+.user-avatar {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  vertical-align: top;
+  max-width: 100%;
+
+  img {
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+  }
+
+  span {
+    flex: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}
+
 .handsontable {
   td {
     text-overflow: ellipsis !important;
@@ -206,4 +227,10 @@ label {
 .ht-theme-nostalgia-dark,
 .ht-theme-nostalgia-dark .handsontable {
   font-family: "IBM Plex Mono" !important;
+
+  .user-avatar {
+    img {
+      border-radius: 0;
+    }
+  }
 }

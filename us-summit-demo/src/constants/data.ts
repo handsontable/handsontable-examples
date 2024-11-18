@@ -1,6 +1,9 @@
 export const data = [
   {
-    fullName: "Samuel Garcia",
+    person: {
+      fullName: "Samuel Garcia",
+      avatarSrc: "./avatar/av01.png",
+    },
     jobTitle: "Software Engineer",
     companyName: "Google",
     phone: "+1-115-459-7532",
@@ -12,7 +15,10 @@ export const data = [
     orderId: 10000,
   },
   {
-    fullName: "Bob Harris",
+    person: {
+      fullName: "Bob Harris",
+      avatarSrc: "./avatar/av02.png",
+    },
     jobTitle: "Data Scientist",
     companyName: "Apple",
     phone: "+1-657-161-3425",
@@ -24,7 +30,10 @@ export const data = [
     orderId: 10001,
   },
   {
-    fullName: "Eve Hernandez",
+    person: {
+      fullName: "Eve Hernandez",
+      avatarSrc: "./avatar/av03.png",
+    },
     jobTitle: "Product Manager",
     companyName: "Microsoft",
     phone: "+1-474-468-2857",
@@ -36,7 +45,10 @@ export const data = [
     orderId: 10002,
   },
   {
-    fullName: "James Davis",
+    person: {
+      fullName: "James Davis",
+      avatarSrc: "./avatar/av04.png",
+    },
     jobTitle: "UX Designer",
     companyName: "Amazon",
     phone: "+1-112-882-5878",
@@ -48,7 +60,10 @@ export const data = [
     orderId: 10003,
   },
   {
-    fullName: "Mia Jackson",
+    person: {
+      fullName: "Mia Jackson",
+      avatarSrc: "./avatar/av05.png",
+    },
     jobTitle: "Marketing Manager",
     companyName: "Facebook",
     phone: "+1-265-230-2288",
@@ -60,7 +75,10 @@ export const data = [
     orderId: 10004,
   },
   {
-    fullName: "Liam Harris",
+    person: {
+      fullName: "Liam Harris",
+      avatarSrc: "./avatar/av06.png",
+    },
     jobTitle: "Web Developer",
     companyName: "Tesla",
     phone: "+1-232-491-1149",
@@ -72,7 +90,10 @@ export const data = [
     orderId: 10005,
   },
   {
-    fullName: "Samuel Hernandez",
+    person: {
+      fullName: "Samuel Hernandez",
+      avatarSrc: "./avatar/av07.png",
+    },
     jobTitle: "Business Analyst",
     companyName: "Oracle",
     phone: "+1-858-737-7970",
@@ -84,7 +105,10 @@ export const data = [
     orderId: 10006,
   },
   {
-    fullName: "Victor Johnson",
+    person: {
+      fullName: "Victor Johnson",
+      avatarSrc: "./avatar/av08.png",
+    },
     jobTitle: "DevOps Engineer",
     companyName: "IBM",
     phone: "+1-909-332-3904",
@@ -96,7 +120,10 @@ export const data = [
     orderId: 10007,
   },
   {
-    fullName: "James Garcia",
+    person: {
+      fullName: "James Garcia",
+      avatarSrc: "./avatar/av09.png",
+    },
     jobTitle: "Quality Analyst",
     companyName: "Samsung",
     phone: "+1-806-369-9974",
@@ -108,7 +135,10 @@ export const data = [
     orderId: 10008,
   },
   {
-    fullName: "Henry Miller",
+    person: {
+      fullName: "Henry Miller",
+      avatarSrc: "./avatar/av10.png",
+    },
     jobTitle: "Project Manager",
     companyName: "Intel",
     phone: "+1-785-561-7461",
@@ -121,7 +151,10 @@ export const data = [
     orderId: 10009,
   },
   {
-    fullName: "Paul Anderson",
+    person: {
+      fullName: "Paul Anderson",
+      avatarSrc: "./avatar/av11.png",
+    },
     jobTitle: "Software Engineer",
     companyName: "Acme Corp",
     phone: "+1-517-573-2414",
@@ -134,7 +167,10 @@ export const data = [
     orderId: 10010,
   },
   {
-    fullName: "Samuel Wilson",
+    person: {
+      fullName: "Samuel Wilson",
+      avatarSrc: "./avatar/av12.png",
+    },
     jobTitle: "Data Scientist",
     companyName: "Tech Solutions",
     phone: "+1-837-585-2067",
@@ -147,7 +183,10 @@ export const data = [
     orderId: 10011,
   },
   {
-    fullName: "Grace Harris",
+    person: {
+      fullName: "Grace Harris",
+      avatarSrc: "./avatar/av13.png",
+    },
     jobTitle: "Product Manager",
     companyName: "Innovatech",
     phone: "+1-469-623-3432",
@@ -160,7 +199,10 @@ export const data = [
     orderId: 10012,
   },
   {
-    fullName: "Bob Lopez",
+    person: {
+      fullName: "Bob Lopez",
+      avatarSrc: "./avatar/av14.png",
+    },
     jobTitle: "UX Designer",
     companyName: "DataForge",
     phone: "+1-243-173-8479",
@@ -173,7 +215,10 @@ export const data = [
     orderId: 10013,
   },
   {
-    fullName: "Liam Williams",
+    person: {
+      fullName: "Liam Williams",
+      avatarSrc: "./avatar/av15.png",
+    },
     jobTitle: "Marketing Manager",
     companyName: "NextGen Technologies",
     phone: "+1-629-757-9247",
@@ -186,7 +231,10 @@ export const data = [
     orderId: 10014,
   },
   {
-    fullName: "Ursula Johnson",
+    person: {
+      fullName: "Ursula Johnson",
+      avatarSrc: "./avatar/av16.png",
+    },
     jobTitle: "Web Developer",
     companyName: "Creative Minds",
     phone: "+1-632-661-4800",
@@ -199,7 +247,10 @@ export const data = [
     orderId: 10015,
   },
   {
-    fullName: "Isabella Miller",
+    person: {
+      fullName: "Isabella Miller",
+      avatarSrc: "./avatar/av17.png",
+    },
     jobTitle: "Business Analyst",
     companyName: "Streamline Systems",
     phone: "+1-855-129-5280",
@@ -212,7 +263,10 @@ export const data = [
     orderId: 10016,
   },
   {
-    fullName: "Mia Wilson",
+    person: {
+      fullName: "Mia Wilson",
+      avatarSrc: "./avatar/av18.png",
+    },
     jobTitle: "DevOps Engineer",
     companyName: "Quantum Computing Inc.",
     phone: "+1-702-127-5959",
@@ -225,7 +279,10 @@ export const data = [
     orderId: 10017,
   },
   {
-    fullName: "Ursula Garcia",
+    person: {
+      fullName: "Ursula Garcia",
+      avatarSrc: "./avatar/av19.png",
+    },
     jobTitle: "Quality Analyst",
     companyName: "Pioneer Labs",
     phone: "+1-697-637-3238",
@@ -238,7 +295,10 @@ export const data = [
     orderId: 10018,
   },
   {
-    fullName: "David Thomas",
+    person: {
+      fullName: "David Thomas",
+      avatarSrc: "./avatar/av20.png",
+    },
     jobTitle: "Project Manager",
     companyName: "GlobalTech Solutions",
     phone: "+1-438-113-2605",
@@ -251,7 +311,10 @@ export const data = [
     orderId: 10019,
   },
   {
-    fullName: "Mia Williams",
+    person: {
+      fullName: "Mia Williams",
+      avatarSrc: "./avatar/av21.png",
+    },
     jobTitle: "Software Engineer",
     companyName: "Evolve Enterprises",
     phone: "+1-557-789-2443",
@@ -264,7 +327,10 @@ export const data = [
     orderId: 10020,
   },
   {
-    fullName: "Mia Lewis",
+    person: {
+      fullName: "Mia Lewis",
+      avatarSrc: "./avatar/av22.png",
+    },
     jobTitle: "Data Scientist",
     companyName: "Google",
     phone: "+1-621-871-9258",
@@ -277,7 +343,10 @@ export const data = [
     orderId: 10021,
   },
   {
-    fullName: "Bob Jones",
+    person: {
+      fullName: "Bob Jones",
+      avatarSrc: "./avatar/av23.png",
+    },
     jobTitle: "Product Manager",
     companyName: "Apple",
     phone: "+1-815-280-6332",
@@ -290,7 +359,10 @@ export const data = [
     orderId: 10022,
   },
   {
-    fullName: "Quinn Lopez",
+    person: {
+      fullName: "Quinn Lopez",
+      avatarSrc: "./avatar/av24.png",
+    },
     jobTitle: "UX Designer",
     companyName: "Microsoft",
     phone: "+1-942-525-6425",
@@ -303,7 +375,10 @@ export const data = [
     orderId: 10023,
   },
   {
-    fullName: "Grace White",
+    person: {
+      fullName: "Grace White",
+      avatarSrc: "./avatar/av25.png",
+    },
     jobTitle: "Marketing Manager",
     companyName: "Amazon",
     phone: "+1-441-609-9962",
@@ -316,7 +391,10 @@ export const data = [
     orderId: 10024,
   },
   {
-    fullName: "Grace Williams",
+    person: {
+      fullName: "Grace Williams",
+      avatarSrc: "./avatar/av26.png",
+    },
     jobTitle: "Web Developer",
     companyName: "Facebook",
     phone: "+1-846-339-3245",
@@ -329,7 +407,10 @@ export const data = [
     orderId: 10025,
   },
   {
-    fullName: "Isabella Lewis",
+    person: {
+      fullName: "Isabella Lewis",
+      avatarSrc: "./avatar/av27.png",
+    },
     jobTitle: "Business Analyst",
     companyName: "Tesla",
     phone: "+1-149-252-8637",
@@ -342,7 +423,10 @@ export const data = [
     orderId: 10026,
   },
   {
-    fullName: "James Lewis",
+    person: {
+      fullName: "James Lewis",
+      avatarSrc: "./avatar/av28.png",
+    },
     jobTitle: "DevOps Engineer",
     companyName: "Oracle",
     phone: "+1-670-874-9618",
@@ -355,7 +439,10 @@ export const data = [
     orderId: 10027,
   },
   {
-    fullName: "Liam Martinez",
+    person: {
+      fullName: "Liam Martinez",
+      avatarSrc: "./avatar/av29.png",
+    },
     jobTitle: "Quality Analyst",
     companyName: "IBM",
     phone: "+1-879-499-3006",
@@ -368,7 +455,10 @@ export const data = [
     orderId: 10028,
   },
   {
-    fullName: "Taylor Harris",
+    person: {
+      fullName: "Taylor Harris",
+      avatarSrc: "./avatar/av30.png",
+    },
     jobTitle: "Project Manager",
     companyName: "Samsung",
     phone: "+1-274-204-2792",
@@ -381,7 +471,10 @@ export const data = [
     orderId: 10029,
   },
   {
-    fullName: "Rachel Martinez",
+    person: {
+      fullName: "Rachel Martinez",
+      avatarSrc: "./avatar/av15.png",
+    },
     jobTitle: "Software Engineer",
     companyName: "Intel",
     phone: "+1-849-134-7029",
@@ -394,7 +487,10 @@ export const data = [
     orderId: 10030,
   },
   {
-    fullName: "Eve Anderson",
+    person: {
+      fullName: "Eve Anderson",
+      avatarSrc: "./avatar/av02.png",
+    },
     jobTitle: "Data Scientist",
     companyName: "Acme Corp",
     phone: "+1-517-400-4889",
@@ -407,7 +503,10 @@ export const data = [
     orderId: 10031,
   },
   {
-    fullName: "Taylor Williams",
+    person: {
+      fullName: "Taylor Williams",
+      avatarSrc: "./avatar/av30.png",
+    },
     jobTitle: "Product Manager",
     companyName: "Tech Solutions",
     phone: "+1-683-308-8636",
@@ -420,7 +519,10 @@ export const data = [
     orderId: 10032,
   },
   {
-    fullName: "Liam Davis",
+    person: {
+      fullName: "Liam Davis",
+      avatarSrc: "./avatar/av02.png",
+    },
     jobTitle: "UX Designer",
     companyName: "Innovatech",
     phone: "+1-532-478-1793",
@@ -433,7 +535,10 @@ export const data = [
     orderId: 10033,
   },
   {
-    fullName: "Mia Lopez",
+    person: {
+      fullName: "Mia Lopez",
+      avatarSrc: "./avatar/av13.png",
+    },
     jobTitle: "Marketing Manager",
     companyName: "DataForge",
     phone: "+1-538-927-7877",
@@ -446,7 +551,10 @@ export const data = [
     orderId: 10034,
   },
   {
-    fullName: "Olivia Williams",
+    person: {
+      fullName: "Olivia Williams",
+      avatarSrc: "./avatar/av15.png",
+    },
     jobTitle: "Web Developer",
     companyName: "NextGen Technologies",
     phone: "+1-982-730-3917",
@@ -459,7 +567,10 @@ export const data = [
     orderId: 10035,
   },
   {
-    fullName: "Charlie Anderson",
+    person: {
+      fullName: "Charlie Anderson",
+      avatarSrc: "./avatar/av17.png",
+    },
     jobTitle: "Business Analyst",
     companyName: "Creative Minds",
     phone: "+1-188-228-1844",
@@ -472,7 +583,10 @@ export const data = [
     orderId: 10036,
   },
   {
-    fullName: "Ursula Garcia",
+    person: {
+      fullName: "Ursula Garcia",
+      avatarSrc: "./avatar/av01.png",
+    },
     jobTitle: "DevOps Engineer",
     companyName: "Streamline Systems",
     phone: "+1-109-936-4559",
@@ -485,7 +599,10 @@ export const data = [
     orderId: 10037,
   },
   {
-    fullName: "Victor Jones",
+    person: {
+      fullName: "Victor Jones",
+      avatarSrc: "./avatar/av16.png",
+    },
     jobTitle: "Quality Analyst",
     companyName: "Quantum Computing Inc.",
     phone: "+1-566-552-7107",
@@ -498,7 +615,10 @@ export const data = [
     orderId: 10038,
   },
   {
-    fullName: "Bob Anderson",
+    person: {
+      fullName: "Bob Anderson",
+      avatarSrc: "./avatar/av25.png",
+    },
     jobTitle: "Project Manager",
     companyName: "Pioneer Labs",
     phone: "+1-413-210-7884",
@@ -511,7 +631,10 @@ export const data = [
     orderId: 10039,
   },
   {
-    fullName: "Charlie Miller",
+    person: {
+      fullName: "Charlie Miller",
+      avatarSrc: "./avatar/av11.png",
+    },
     jobTitle: "Software Engineer",
     companyName: "GlobalTech Solutions",
     phone: "+1-470-214-9000",
@@ -524,7 +647,10 @@ export const data = [
     orderId: 10040,
   },
   {
-    fullName: "Isabella Thomas",
+    person: {
+      fullName: "Isabella Thomas",
+      avatarSrc: "./avatar/av14.png",
+    },
     jobTitle: "Data Scientist",
     companyName: "Evolve Enterprises",
     phone: "+1-986-325-5036",
@@ -537,7 +663,10 @@ export const data = [
     orderId: 10041,
   },
   {
-    fullName: "Taylor Martinez",
+    person: {
+      fullName: "Taylor Martinez",
+      avatarSrc: "./avatar/av16.png",
+    },
     jobTitle: "Product Manager",
     companyName: "Google",
     phone: "+1-369-764-8128",
@@ -550,7 +679,10 @@ export const data = [
     orderId: 10042,
   },
   {
-    fullName: "Isabella Jackson",
+    person: {
+      fullName: "Isabella Jackson",
+      avatarSrc: "./avatar/av24.png",
+    },
     jobTitle: "UX Designer",
     companyName: "Apple",
     phone: "+1-679-895-8610",
@@ -563,7 +695,10 @@ export const data = [
     orderId: 10043,
   },
   {
-    fullName: "James Jones",
+    person: {
+      fullName: "James Jones",
+      avatarSrc: "./avatar/av25.png",
+    },
     jobTitle: "Marketing Manager",
     companyName: "Microsoft",
     phone: "+1-621-377-3752",
@@ -576,7 +711,10 @@ export const data = [
     orderId: 10044,
   },
   {
-    fullName: "Victor Wilson",
+    person: {
+      fullName: "Victor Wilson",
+      avatarSrc: "./avatar/av01.png",
+    },
     jobTitle: "Web Developer",
     companyName: "Amazon",
     phone: "+1-673-862-8519",
@@ -589,7 +727,10 @@ export const data = [
     orderId: 10045,
   },
   {
-    fullName: "Rachel Jones",
+    person: {
+      fullName: "Rachel Jones",
+      avatarSrc: "./avatar/av06.png",
+    },
     jobTitle: "Business Analyst",
     companyName: "Facebook",
     phone: "+1-505-309-9107",
@@ -602,7 +743,10 @@ export const data = [
     orderId: 10046,
   },
   {
-    fullName: "James Garcia",
+    person: {
+      fullName: "James Garcia",
+      avatarSrc: "./avatar/av30.png",
+    },
     jobTitle: "DevOps Engineer",
     companyName: "Tesla",
     phone: "+1-338-813-1233",
@@ -615,7 +759,10 @@ export const data = [
     orderId: 10047,
   },
   {
-    fullName: "Rachel Brown",
+    person: {
+      fullName: "Rachel Brown",
+      avatarSrc: "./avatar/av25.png",
+    },
     jobTitle: "Quality Analyst",
     companyName: "Oracle",
     phone: "+1-679-691-8562",
@@ -628,7 +775,10 @@ export const data = [
     orderId: 10048,
   },
   {
-    fullName: "Eve Brown",
+    person: {
+      fullName: "Eve Brown",
+      avatarSrc: "./avatar/av21.png",
+    },
     jobTitle: "Project Manager",
     companyName: "IBM",
     phone: "+1-481-509-8572",
@@ -641,7 +791,10 @@ export const data = [
     orderId: 10049,
   },
   {
-    fullName: "Taylor Martinez",
+    person: {
+      fullName: "Taylor Martinez",
+      avatarSrc: "./avatar/av28.png",
+    },
     jobTitle: "Software Engineer",
     companyName: "Samsung",
     phone: "+1-622-107-3172",
@@ -654,7 +807,10 @@ export const data = [
     orderId: 10050,
   },
   {
-    fullName: "Samuel Garcia",
+    person: {
+      fullName: "Samuel Garcia",
+      avatarSrc: "./avatar/av03.png",
+    },
     jobTitle: "Data Scientist",
     companyName: "Intel",
     phone: "+1-585-490-9032",
@@ -667,7 +823,10 @@ export const data = [
     orderId: 10051,
   },
   {
-    fullName: "Rachel Wilson",
+    person: {
+      fullName: "Rachel Wilson",
+      avatarSrc: "./avatar/av01.png",
+    },
     jobTitle: "Product Manager",
     companyName: "Acme Corp",
     phone: "+1-336-993-6867",
@@ -680,7 +839,10 @@ export const data = [
     orderId: 10052,
   },
   {
-    fullName: "Taylor White",
+    person: {
+      fullName: "Taylor White",
+      avatarSrc: "./avatar/av09.png",
+    },
     jobTitle: "UX Designer",
     companyName: "Tech Solutions",
     phone: "+1-125-804-7276",
@@ -693,7 +855,10 @@ export const data = [
     orderId: 10053,
   },
   {
-    fullName: "Liam Anderson",
+    person: {
+      fullName: "Liam Anderson",
+      avatarSrc: "./avatar/av21.png",
+    },
     jobTitle: "Marketing Manager",
     companyName: "Innovatech",
     phone: "+1-490-520-7567",
@@ -706,7 +871,10 @@ export const data = [
     orderId: 10054,
   },
   {
-    fullName: "Charlie Thomas",
+    person: {
+      fullName: "Charlie Thomas",
+      avatarSrc: "./avatar/av08.png",
+    },
     jobTitle: "Web Developer",
     companyName: "DataForge",
     phone: "+1-758-783-6778",
@@ -719,7 +887,10 @@ export const data = [
     orderId: 10055,
   },
   {
-    fullName: "Noah Brown",
+    person: {
+      fullName: "Noah Brown",
+      avatarSrc: "./avatar/av05.png",
+    },
     jobTitle: "Business Analyst",
     companyName: "NextGen Technologies",
     phone: "+1-155-883-5636",
@@ -732,7 +903,10 @@ export const data = [
     orderId: 10056,
   },
   {
-    fullName: "Noah Harris",
+    person: {
+      fullName: "Noah Harris",
+      avatarSrc: "./avatar/av20.png",
+    },
     jobTitle: "DevOps Engineer",
     companyName: "Creative Minds",
     phone: "+1-439-386-6270",
@@ -745,7 +919,10 @@ export const data = [
     orderId: 10057,
   },
   {
-    fullName: "Victor Anderson",
+    person: {
+      fullName: "Victor Anderson",
+      avatarSrc: "./avatar/av02.png",
+    },
     jobTitle: "Quality Analyst",
     companyName: "Streamline Systems",
     phone: "+1-888-854-2715",
@@ -758,7 +935,10 @@ export const data = [
     orderId: 10058,
   },
   {
-    fullName: "Quinn Anderson",
+    person: {
+      fullName: "Quinn Anderson",
+      avatarSrc: "./avatar/av25.png",
+    },
     jobTitle: "Project Manager",
     companyName: "Quantum Computing Inc.",
     phone: "+1-725-912-3524",
@@ -771,7 +951,10 @@ export const data = [
     orderId: 10059,
   },
   {
-    fullName: "Alice Lewis",
+    person: {
+      fullName: "Alice Lewis",
+      avatarSrc: "./avatar/av14.png",
+    },
     jobTitle: "Software Engineer",
     companyName: "Pioneer Labs",
     phone: "+1-870-396-4340",
@@ -784,7 +967,10 @@ export const data = [
     orderId: 10060,
   },
   {
-    fullName: "Charlie Lopez",
+    person: {
+      fullName: "Charlie Lopez",
+      avatarSrc: "./avatar/av28.png",
+    },
     jobTitle: "Data Scientist",
     companyName: "GlobalTech Solutions",
     phone: "+1-419-427-2397",
@@ -797,7 +983,10 @@ export const data = [
     orderId: 10061,
   },
   {
-    fullName: "Rachel Lopez",
+    person: {
+      fullName: "Rachel Lopez",
+      avatarSrc: "./avatar/av06.png",
+    },
     jobTitle: "Product Manager",
     companyName: "Evolve Enterprises",
     phone: "+1-493-898-7636",
@@ -810,7 +999,10 @@ export const data = [
     orderId: 10062,
   },
   {
-    fullName: "Isabella Hernandez",
+    person: {
+      fullName: "Isabella Hernandez",
+      avatarSrc: "./avatar/av25.png",
+    },
     jobTitle: "UX Designer",
     companyName: "Google",
     phone: "+1-390-270-3251",
@@ -823,7 +1015,10 @@ export const data = [
     orderId: 10063,
   },
   {
-    fullName: "Charlie Smith",
+    person: {
+      fullName: "Charlie Smith",
+      avatarSrc: "./avatar/av30.png",
+    },
     jobTitle: "Marketing Manager",
     companyName: "Apple",
     phone: "+1-998-124-9540",
@@ -836,7 +1031,10 @@ export const data = [
     orderId: 10064,
   },
   {
-    fullName: "Liam Hernandez",
+    person: {
+      fullName: "Liam Hernandez",
+      avatarSrc: "./avatar/av11.png",
+    },
     jobTitle: "Web Developer",
     companyName: "Microsoft",
     phone: "+1-957-914-7681",
@@ -849,7 +1047,10 @@ export const data = [
     orderId: 10065,
   },
   {
-    fullName: "Isabella Smith",
+    person: {
+      fullName: "Isabella Smith",
+      avatarSrc: "./avatar/av16.png",
+    },
     jobTitle: "Business Analyst",
     companyName: "Amazon",
     phone: "+1-644-425-8481",
@@ -862,7 +1063,10 @@ export const data = [
     orderId: 10066,
   },
   {
-    fullName: "Samuel Davis",
+    person: {
+      fullName: "Samuel Davis",
+      avatarSrc: "./avatar/av01.png",
+    },
     jobTitle: "DevOps Engineer",
     companyName: "Facebook",
     phone: "+1-394-892-4491",
@@ -875,7 +1079,10 @@ export const data = [
     orderId: 10067,
   },
   {
-    fullName: "Isabella Jones",
+    person: {
+      fullName: "Isabella Jones",
+      avatarSrc: "./avatar/av15.png",
+    },
     jobTitle: "Quality Analyst",
     companyName: "Tesla",
     phone: "+1-391-729-4413",
@@ -888,7 +1095,10 @@ export const data = [
     orderId: 10068,
   },
   {
-    fullName: "Quinn Anderson",
+    person: {
+      fullName: "Quinn Anderson",
+      avatarSrc: "./avatar/av25.png",
+    },
     jobTitle: "Project Manager",
     companyName: "Oracle",
     phone: "+1-664-116-8902",
@@ -901,7 +1111,10 @@ export const data = [
     orderId: 10069,
   },
   {
-    fullName: "Grace Harris",
+    person: {
+      fullName: "Grace Harris",
+      avatarSrc: "./avatar/av26.png",
+    },
     jobTitle: "Software Engineer",
     companyName: "IBM",
     phone: "+1-872-894-3744",
@@ -914,7 +1127,10 @@ export const data = [
     orderId: 10070,
   },
   {
-    fullName: "Noah Johnson",
+    person: {
+      fullName: "Noah Johnson",
+      avatarSrc: "./avatar/av05.png",
+    },
     jobTitle: "Data Scientist",
     companyName: "Samsung",
     phone: "+1-904-765-3278",
@@ -927,7 +1143,10 @@ export const data = [
     orderId: 10071,
   },
   {
-    fullName: "Olivia Garcia",
+    person: {
+      fullName: "Olivia Garcia",
+      avatarSrc: "./avatar/av26.png",
+    },
     jobTitle: "Product Manager",
     companyName: "Intel",
     phone: "+1-233-834-9054",
@@ -940,7 +1159,10 @@ export const data = [
     orderId: 10072,
   },
   {
-    fullName: "Grace Martinez",
+    person: {
+      fullName: "Grace Martinez",
+      avatarSrc: "./avatar/av16.png",
+    },
     jobTitle: "UX Designer",
     companyName: "Acme Corp",
     phone: "+1-855-522-3636",
@@ -953,7 +1175,10 @@ export const data = [
     orderId: 10073,
   },
   {
-    fullName: "Victor Hernandez",
+    person: {
+      fullName: "Victor Hernandez",
+      avatarSrc: "./avatar/av15.png",
+    },
     jobTitle: "Marketing Manager",
     companyName: "Tech Solutions",
     phone: "+1-999-964-5242",
@@ -966,7 +1191,10 @@ export const data = [
     orderId: 10074,
   },
   {
-    fullName: "Ursula White",
+    person: {
+      fullName: "Ursula White",
+      avatarSrc: "./avatar/av08.png",
+    },
     jobTitle: "Web Developer",
     companyName: "Innovatech",
     phone: "+1-149-407-5349",
@@ -979,7 +1207,10 @@ export const data = [
     orderId: 10075,
   },
   {
-    fullName: "James Gonzalez",
+    person: {
+      fullName: "James Gonzalez",
+      avatarSrc: "./avatar/av08.png",
+    },
     jobTitle: "Business Analyst",
     companyName: "DataForge",
     phone: "+1-759-413-5024",
@@ -992,7 +1223,10 @@ export const data = [
     orderId: 10076,
   },
   {
-    fullName: "Olivia Clark",
+    person: {
+      fullName: "Olivia Clark",
+      avatarSrc: "./avatar/av19.png",
+    },
     jobTitle: "DevOps Engineer",
     companyName: "NextGen Technologies",
     phone: "+1-805-535-2406",
@@ -1005,7 +1239,10 @@ export const data = [
     orderId: 10077,
   },
   {
-    fullName: "Liam Martinez",
+    person: {
+      fullName: "Liam Martinez",
+      avatarSrc: "./avatar/av22.png",
+    },
     jobTitle: "Quality Analyst",
     companyName: "Creative Minds",
     phone: "+1-841-222-1920",
@@ -1018,7 +1255,10 @@ export const data = [
     orderId: 10078,
   },
   {
-    fullName: "Olivia Johnson",
+    person: {
+      fullName: "Olivia Johnson",
+      avatarSrc: "./avatar/av01.png",
+    },
     jobTitle: "Project Manager",
     companyName: "Streamline Systems",
     phone: "+1-573-657-9378",
@@ -1031,7 +1271,10 @@ export const data = [
     orderId: 10079,
   },
   {
-    fullName: "Victor Martinez",
+    person: {
+      fullName: "Victor Martinez",
+      avatarSrc: "./avatar/av27.png",
+    },
     jobTitle: "Software Engineer",
     companyName: "Quantum Computing Inc.",
     phone: "+1-811-378-5621",
@@ -1044,7 +1287,10 @@ export const data = [
     orderId: 10080,
   },
   {
-    fullName: "Rachel Clark",
+    person: {
+      fullName: "Rachel Clark",
+      avatarSrc: "./avatar/av18.png",
+    },
     jobTitle: "Data Scientist",
     companyName: "Pioneer Labs",
     phone: "+1-555-237-5356",
@@ -1057,7 +1303,10 @@ export const data = [
     orderId: 10081,
   },
   {
-    fullName: "James Gonzalez",
+    person: {
+      fullName: "James Gonzalez",
+      avatarSrc: "./avatar/av12.png",
+    },
     jobTitle: "Product Manager",
     companyName: "GlobalTech Solutions",
     phone: "+1-953-239-9484",
@@ -1070,7 +1319,10 @@ export const data = [
     orderId: 10082,
   },
   {
-    fullName: "Isabella Thomas",
+    person: {
+      fullName: "Isabella Thomas",
+      avatarSrc: "./avatar/av17.png",
+    },
     jobTitle: "UX Designer",
     companyName: "Evolve Enterprises",
     phone: "+1-523-579-8558",
@@ -1083,7 +1335,10 @@ export const data = [
     orderId: 10083,
   },
   {
-    fullName: "Ursula Thomas",
+    person: {
+      fullName: "Ursula Thomas",
+      avatarSrc: "./avatar/av29.png",
+    },
     jobTitle: "Marketing Manager",
     companyName: "Google",
     phone: "+1-839-858-4908",
@@ -1096,7 +1351,10 @@ export const data = [
     orderId: 10084,
   },
   {
-    fullName: "Noah Martinez",
+    person: {
+      fullName: "Noah Martinez",
+      avatarSrc: "./avatar/av10.png",
+    },
     jobTitle: "Web Developer",
     companyName: "Apple",
     phone: "+1-347-995-6393",
@@ -1109,7 +1367,10 @@ export const data = [
     orderId: 10085,
   },
   {
-    fullName: "Quinn Anderson",
+    person: {
+      fullName: "Quinn Anderson",
+      avatarSrc: "./avatar/av08.png",
+    },
     jobTitle: "Business Analyst",
     companyName: "Microsoft",
     phone: "+1-561-177-5844",
@@ -1122,7 +1383,10 @@ export const data = [
     orderId: 10086,
   },
   {
-    fullName: "Quinn Wilson",
+    person: {
+      fullName: "Quinn Wilson",
+      avatarSrc: "./avatar/av15.png",
+    },
     jobTitle: "DevOps Engineer",
     companyName: "Amazon",
     phone: "+1-212-862-7406",
@@ -1135,7 +1399,10 @@ export const data = [
     orderId: 10087,
   },
   {
-    fullName: "Henry Garcia",
+    person: {
+      fullName: "Henry Garcia",
+      avatarSrc: "./avatar/av08.png",
+    },
     jobTitle: "Quality Analyst",
     companyName: "Facebook",
     phone: "+1-789-704-8800",
@@ -1148,7 +1415,10 @@ export const data = [
     orderId: 10088,
   },
   {
-    fullName: "Taylor Lopez",
+    person: {
+      fullName: "Taylor Lopez",
+      avatarSrc: "./avatar/av06.png",
+    },
     jobTitle: "Project Manager",
     companyName: "Tesla",
     phone: "+1-446-204-7682",
@@ -1161,7 +1431,10 @@ export const data = [
     orderId: 10089,
   },
   {
-    fullName: "Ursula Miller",
+    person: {
+      fullName: "Ursula Miller",
+      avatarSrc: "./avatar/av10.png",
+    },
     jobTitle: "Software Engineer",
     companyName: "Oracle",
     phone: "+1-181-459-8711",
@@ -1174,7 +1447,10 @@ export const data = [
     orderId: 10090,
   },
   {
-    fullName: "Henry Lopez",
+    person: {
+      fullName: "Henry Lopez",
+      avatarSrc: "./avatar/av29.png",
+    },
     jobTitle: "Data Scientist",
     companyName: "IBM",
     phone: "+1-369-672-8591",
@@ -1187,7 +1463,10 @@ export const data = [
     orderId: 10091,
   },
   {
-    fullName: "Mia Johnson",
+    person: {
+      fullName: "Mia Johnson",
+      avatarSrc: "./avatar/av08.png",
+    },
     jobTitle: "Product Manager",
     companyName: "Samsung",
     phone: "+1-377-380-1777",
@@ -1200,7 +1479,10 @@ export const data = [
     orderId: 10092,
   },
   {
-    fullName: "Grace Gonzalez",
+    person: {
+      fullName: "Grace Gonzalez",
+      avatarSrc: "./avatar/av12.png",
+    },
     jobTitle: "UX Designer",
     companyName: "Intel",
     phone: "+1-734-119-5512",
@@ -1213,7 +1495,10 @@ export const data = [
     orderId: 10093,
   },
   {
-    fullName: "Grace Jones",
+    person: {
+      fullName: "Grace Jones",
+      avatarSrc: "./avatar/av02.png",
+    },
     jobTitle: "Marketing Manager",
     companyName: "Acme Corp",
     phone: "+1-582-832-1875",
@@ -1226,7 +1511,10 @@ export const data = [
     orderId: 10094,
   },
   {
-    fullName: "Samuel Jackson",
+    person: {
+      fullName: "Samuel Jackson",
+      avatarSrc: "./avatar/av29.png",
+    },
     jobTitle: "Web Developer",
     companyName: "Tech Solutions",
     phone: "+1-811-187-9615",
@@ -1239,7 +1527,10 @@ export const data = [
     orderId: 10095,
   },
   {
-    fullName: "Paul Davis",
+    person: {
+      fullName: "Paul Davis",
+      avatarSrc: "./avatar/av17.png",
+    },
     jobTitle: "Business Analyst",
     companyName: "Innovatech",
     phone: "+1-788-608-4549",
@@ -1252,7 +1543,10 @@ export const data = [
     orderId: 10096,
   },
   {
-    fullName: "Rachel Johnson",
+    person: {
+      fullName: "Rachel Johnson",
+      avatarSrc: "./avatar/av20.png",
+    },
     jobTitle: "DevOps Engineer",
     companyName: "DataForge",
     phone: "+1-123-444-1505",
@@ -1265,7 +1559,10 @@ export const data = [
     orderId: 10097,
   },
   {
-    fullName: "Noah Martinez",
+    person: {
+      fullName: "Noah Martinez",
+      avatarSrc: "./avatar/av25.png",
+    },
     jobTitle: "Quality Analyst",
     companyName: "NextGen Technologies",
     phone: "+1-303-132-6216",
@@ -1278,7 +1575,10 @@ export const data = [
     orderId: 10098,
   },
   {
-    fullName: "Alice Hernandez",
+    person: {
+      fullName: "Alice Hernandez",
+      avatarSrc: "./avatar/av20.png",
+    },
     jobTitle: "Project Manager",
     companyName: "Creative Minds",
     phone: "+1-281-362-3535",
