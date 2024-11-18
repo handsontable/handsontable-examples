@@ -52,7 +52,6 @@ const tableConfig = {
   navigableHeaders: true,
   multiColumnSorting: true,
   manualRowMove: true,
-  manualColumnMove: true,
   manualRowResize: true,
   manualColumnResize: true,
   bindRowsWithHeaders: true,
