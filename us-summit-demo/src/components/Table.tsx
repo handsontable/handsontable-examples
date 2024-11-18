@@ -80,6 +80,7 @@ const Table = ({ themeName }: Props) => (
             headerClassName="htLeft"
             width={160}
             renderer={Person}
+            readOnly
           />
           <HotColumn data="jobTitle" headerClassName="htLeft" width={180} />
           <HotColumn data="companyName" headerClassName="htLeft" width={180} />
