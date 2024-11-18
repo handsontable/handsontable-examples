@@ -176,10 +176,10 @@ label {
 
   .table-wrapper {
     display: flex;
-    min-height: calc(100svh - 121px);
+    min-height: calc(100svh - 101px);
     padding: 20px 24px 101px 24px;
 
-    @media (max-width: 767px) {
+    @media (max-width: 1023px) {
       padding: 20px 14px 101px 14px;
       min-height: calc(100svh - 141px);
     }

@@ -11,23 +11,17 @@ const hyperformulaInstance = HyperFormula.buildEmpty({
 
 const tableConfig = {
   height: 430,
-  nestedHeaders: [
-    [
-      { label: "Customer", colspan: 6 },
-      { label: "Order", colspan: 4 },
-    ],
-    [
-      "Full name",
-      "Job title",
-      "Company name",
-      "Phone",
-      "Active",
-      "Country",
-      "Name",
-      "Storage date",
-      "Sell date",
-      "Order ID",
-    ],
+  colHeaders: [
+    "Full name",
+    "Job title",
+    "Company name",
+    "Phone",
+    "Active",
+    "Country",
+    "Name",
+    "Storage date",
+    "Sell date",
+    "Order ID",
   ],
   contextMenu: [
     "cut",
@@ -52,6 +46,7 @@ const tableConfig = {
   navigableHeaders: true,
   multiColumnSorting: true,
   manualRowMove: true,
+  manualColumnMove: true,
   manualRowResize: true,
   manualColumnResize: true,
   bindRowsWithHeaders: true,
