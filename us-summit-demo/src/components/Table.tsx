@@ -128,7 +128,7 @@ const Table = ({ themeName }: Props) => (
             type="numeric"
             headerClassName="htRight"
             className="htRight"
-            width={120}
+            width={130}
           />
         </HotTable>
       </div>
