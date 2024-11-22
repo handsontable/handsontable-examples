@@ -82,7 +82,7 @@ const Table = ({ themeName }: Props) => (
           <HotColumn
             data="active"
             type="checkbox"
-            headerClassName="htLeft"
+            headerClassName="htCenter"
             className="htCenter"
             width={120}
           />
