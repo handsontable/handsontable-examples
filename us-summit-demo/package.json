@@ -10,8 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@handsontable/react-wrapper": "0.0.0-next-3058de1-20241122",
-    "handsontable": "0.0.0-next-3058de1-20241122",
+    "@handsontable/react-wrapper": "0.0.0-next-fd9f817-20241125",
+    "handsontable": "0.0.0-next-fd9f817-20241125",
     "hyperformula": "^2.7.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
